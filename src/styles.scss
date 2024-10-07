@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons";
+
+@import "ngx-toastr/toastr-bs5-alert";
+
+
+.app-borda-nota-mais-baixa {
+  border: 2px solid transparent;
+  border-top-color: #f62424;
+}
+
+.app-borda-nota-baixa {
+  border: 2px solid transparent;
+  border-top-color: #f62424;
+  border-right-color: #f62424;
+}
+
+.app-borda-nota-media {
+  border: 2px solid transparent;
+  border-top-color: #ffed23;
+  border-right-color: #ffed23;
+  border-bottom-color: #ffed23;
+}
+
+.app-borda-nota-alta {
+  border: 2px solid #3fe437;
+}
+
+.app-card-filme {
+  transition: color, box-shadow 200ms ease-in-out;
+
+  &:hover {
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.65);
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.65);
+
+    .app-titulo-card {
+      color: #209fc2;
+    }
+  }
+}
+
+.app-porcentagem-nota {
+  background-color: #081c22;
+  color: #f3f3f3;
+
+  width: 37px;
+  height: 37px;
+
+  position: absolute;
+
+  top: 1%;
+  left: 1%;
+
+  .app-valor-porcentagem {
+    position: absolute;
+
+    top: 12%;
+    left: 18%;
+  }
+
+  .app-icone-porcentagem {
+    position: absolute;
+
+    bottom: 15%;
+    right: 8%;
+
+    font-size: 9px;
+  }
+}
+
+.app-botao-gradiente{
+  border: none;
+
+  background: linear-gradient(
+    to right,
+    rgba(30, 213, 169, 1) 0%,
+    rgba(1, 180, 228, 1) 100%
+  );
+}

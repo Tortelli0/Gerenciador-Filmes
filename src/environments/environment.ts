@@ -1,0 +1,4 @@
+export const environment = {
+  production: false,
+  API_KEY: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlOGFmNjFjZTY0ZDgxODNhNzA5OGJhNjg4MmUwMTFlNiIsIm5iZiI6MTcyNzcyNDk4My43NDc2NTMsInN1YiI6IjY2ZmFmYTRhZjkwNmI5ODk1OGYxYTBhNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.mJ9ssKsr8iuYZsMeZyxODwUr4cTycEnoQUINlhKkCFQ'
+};

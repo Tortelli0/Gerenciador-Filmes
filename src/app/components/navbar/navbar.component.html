@@ -1,0 +1,16 @@
+<nav class="navbar navbar-dark navbar-expand-lg app-fundo-navbar">
+  <div class="container py-1">
+    <strong class="navbar-brand fs-3 text-light">Natflix</strong>
+
+    <button class="navbar-toggler ms-auto" type="button" aria-controls="collapsibleMenu" aria-expanded="false" aria-label="Toggle navigation" (click)="colapsarNavbar = !colapsarNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div [ngClass]="{ show: colapsarNavbar }" class="collapse navbar-collapse" id="collapsibleMenu">
+      <div class="navbar-nav mt-4 mt-lg-0 ms-lg-auto">
+        <a class="app-botao-navbar nav-link fw-semibold" aria-current="page" routerLink="/filmes">Filmes</a>
+      </div>
+    </div>
+
+  </div>
+</nav>
